@@ -1,0 +1,132 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.encabezado {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+h1 {
+    color: #ffffff;
+    flex-grow: 1;
+    text-align: center;
+    font-size: 30px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    background: #393939;
+    padding-bottom: 50px;
+}
+
+.text-area {
+    resize: none;
+    background-color:transparent ;
+    color: #ff0000;
+    border: solid #000000;
+    text-transform: lowercase;
+    width: 400px;
+    height: 300px;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+::placeholder {color: #ff0000;}
+
+.text-area:focus {
+    outline: none;   
+}
+
+.mensaje {
+    resize: none;
+    background: #000000;
+    background-image: url(imagenes/Dragón.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: none;
+    border-radius: 24px;
+    color: #ff0000;
+    margin-top: 100px;
+    width: 400px;
+    height: 300px;
+    font-size: 30px;
+}
+.mensaje:focus {
+    outline: none;
+}
+
+.botones {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-encriptar {
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+    font-size: 20px;
+    color: #ffffff;
+    cursor: pointer;
+    height: 67px;
+    width: 200px;
+}
+
+.btn-desencriptar {
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+    font-size: 20px;
+    color: #ffffff;
+    cursor: pointer;
+    height: 67px;
+    width: 200px;
+    margin-left: 20px;
+}
+
+#btn-copiar {
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+    font-size: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    height: 67px;
+    width: 336px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.informacion {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 7px;
+    background: #000000;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.Copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
+
+.logo-footer {
+    width: 200px;
+    height: 200px;
+}
